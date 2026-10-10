@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "casinocraft",
+  "version": "${version}",
+  "name": "CasinoCraft",
+  "description": "Casino overlay with a slot machine and blackjack dealer bot using virtual coins.",
+  "authors": ["CasinoCraft"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.casinocraft.CasinoCraftClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
